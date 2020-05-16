@@ -15,3 +15,8 @@ declare module '@docusaurus/Link' {
 declare module '@theme/Layout' {
   declare export default any;
 }
+
+declare module '@docusaurus/router' {
+  declare export default any;
+  declare export function Redirect(props: { +to: string }): React.Node;
+}

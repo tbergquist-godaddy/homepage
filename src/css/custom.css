@@ -29,3 +29,26 @@
 body {
   font-family: Roboto, sans-serif;
 }
+
+.container {
+  padding: 0 15px;
+  margin: 20px auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
