@@ -7,7 +7,8 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "typecheck": "yarn flow . --max-warnings=0"
+    "typecheck": "yarn flow . --max-warnings=0",
+    "lint": "yarn eslint . --fix"
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.54",
@@ -29,6 +30,10 @@
     ]
   },
   "devDependencies": {
-    "flow-bin": "^0.125.1"
+    "@adeira/eslint-config": "^2.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.0.0",
+    "flow-bin": "^0.125.1",
+    "jest": "^26.0.1"
   }
 }
