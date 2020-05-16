@@ -1,4 +1,6 @@
-import React from 'react';
+// @flow
+
+import * as React from 'react';
 import classnames from 'classnames';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
@@ -54,7 +56,7 @@ function Feature({imageUrl, title, description}) {
   );
 }
 
-function Home() {
+function Home(): React.Node {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   return (
@@ -78,7 +80,7 @@ function Home() {
         </div>
       </header>
       <main>
-        {features && features.length && (
+        {features != null && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
               <div className="row">
