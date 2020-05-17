@@ -41,4 +41,6 @@ I do believe that my background in teams sports have had a positive effect on my
 
 
 
+## What about the rest of this page?
 
+The rest of this page will be used as a personal readme. This means things I want to remember, and I hope that it might come in handy for other developers as well. Feel free to give me feedback if you have any comments.
