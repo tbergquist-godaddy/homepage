@@ -4,14 +4,13 @@ title: About me
 ---
 
 
-import Link from '@docusaurus/link'
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Image from '../src/components/Image'
 
 <Image src="https://avatars0.githubusercontent.com/u/7705041?s=400&u=c36fe7c1d5f9ff2c3678db621d07d95551bc1c82&v=4" alt="Trond Bergquist" height="200" width="200"  />
 
 ## Developer
- I am a JavaScript developer, currently working for <Link rel="noopener noreferrer" target="_blank" href="https://kiwi.com">Kiwi.com</Link>. I have experience with the following technologies __React__, __React Native__, __GraphQL__, __Relay__, __Flow__, __NodeJS__ and more. I did some __.NET__, __Angular__ and __jQuery__ in the past, but this is not something I am considering going back to.
+ I am a JavaScript developer, currently working for <a rel="noopener noreferrer" target="_blank" href="https://kiwi.com">Kiwi.com</a>. I have experience with the following technologies __React__, __React Native__, __GraphQL__, __Relay__, __Flow__, __NodeJS__ and more. I did some __.NET__, __Angular__ and __jQuery__ in the past, but this is not something I am considering going back to.
 
  I am very happy working with React and GraphQL, and I consider this to be the most interesting tech stack at the moment. I do enjoy very much learning new technologies, so this might change in the future 🙂. Though I have most experience on the front end I have always done some job on the back end as well, and I consider my self a fullstack developer.
 
@@ -19,7 +18,7 @@ import Image from '../src/components/Image'
 
  ## Location(s)
 
- I am born and raised in Norway :flag-no: , but currently I live in sunny Barcelona with my wife and dog. I have also lived and worked in Lima, Peru :flag-pe: before. Peru is an amazing country with <Link rel="noopener noreferrer" target="_blank" href="https://www.livinginperu.com/peru-wins-again-best-culinary-destination-in-the-world-title-for-8th-consecutive-year/">the best food in the world!</Link>
+ I am born and raised in Norway :flag-no: , but currently I live in sunny Barcelona with my wife and dog. I have also lived and worked in Lima, Peru :flag-pe: before. Peru is an amazing country with <a rel="noopener noreferrer" target="_blank" href="https://www.livinginperu.com/peru-wins-again-best-culinary-destination-in-the-world-title-for-8th-consecutive-year/">the best food in the world!</a>
 
 
 ## Interests
