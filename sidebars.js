@@ -1,8 +1,8 @@
 // @flow
 
 module.exports = {
-  someSidebar: {
-    Docs: ['aboutme'],
-    Features: [],
+  docs: {
+    'About me': ['aboutme'],
+    Flow: ['flow/flow'],
   },
 };
