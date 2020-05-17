@@ -3,7 +3,7 @@
 module.exports = {
   title: 'Tbergq',
   tagline: '',
-  url: '',
+  url: 'https://tbergq-hompage.now.sh',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'tbergq', // Usually your GitHub org/user name.
