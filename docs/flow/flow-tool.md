@@ -27,7 +27,9 @@ You can also use this tool to remove unused suppression comments
 
 To remove unused suppress comments run:
 
+```
 /path/to/tool remove-comments --bin /path/to/flow .
+```
 This command removes all unused suppress comments while keeping unused comments in flowtests (files ending with *-flowtest.js or files in __flowtests__ directory).
 
 You can read more about it in this <a rel="noopener noreferrer" target="_blank" href="https://medium.com/flow-type/upgrading-flow-codebases-40ef8dd3ccd8">Medium blog post</a>
