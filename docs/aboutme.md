@@ -12,9 +12,9 @@ import Image from '../src/components/Image'
 ## Developer
  I am a JavaScript developer, currently working for <a rel="noopener noreferrer" target="_blank" href="https://kiwi.com">Kiwi.com</a>. I have experience with the following technologies __React__, __React Native__, __GraphQL__, __Relay__, __Flow__, __NodeJS__ and more. I did some __.NET__, __Angular__ and __jQuery__ in the past, but this is not something I am considering going back to.
 
- I am very happy working with React and GraphQL, and I consider this to be the most interesting tech stack at the moment. I do enjoy very much learning new technologies, so this might change in the future 🙂. Though I have most experience on the front end I have always done some job on the back end as well, and I consider my self a fullstack developer.
+ I am very happy working with React and GraphQL, and I consider this to be the most interesting tech stack at the moment. I do enjoy learning new technologies, so this might change in the future 🙂. Though I have most experience on the front end I have always done some job on the back end as well, and I consider my self a fullstack developer.
 
- I am looking for new opportunities at the moment, so if you think you have something that can interest me, feel free to reach out on LinkedIn.
+ I am looking for new opportunities at the moment, so if you think you have something that can interest me, feel free to reach out to me on LinkedIn.
 
  ## Location(s)
 
@@ -25,7 +25,7 @@ import Image from '../src/components/Image'
 
 <Image src={useBaseUrl('img/handball.jpg')} alt="Trond playing handball" style={{maxHeight: '200px'}}/> 
 
-I used to be an active athlete when I was younger. I played football until I was 15 and I played handball at the top level in Norway. I also have 33 games for the youth national team. I was also working as a coach until I moved to Spain in 2017. 
+I used to be an active athlete when I was younger. I played football until I was 15 and I played handball at the top level in Norway. I also have 33 games for the youth national team. I was also working as a coach until I moved to Peru in 2014. 
 
 I am no longer playing any sports actively, but I still enjoy going to the gym or work out in other ways 🙂
 
