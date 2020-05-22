@@ -23,7 +23,7 @@ import Image from '../src/components/Image'
 
 ## Interests
 
-<Image src={useBaseUrl('img/handball.jpg')} alt="Trond playing handball" style={{maxHeight: '200px'}}/> 
+<Image src={useBaseUrl('img/handball.webp')} alt="Trond playing handball" style={{maxHeight: '200px'}}/> 
 
 I used to be an active athlete when I was younger. I played football until I was 15 and I played handball at the top level in Norway. I also have 33 games for the youth national team. I was also working as a coach until I moved to Peru in 2014. 
 
