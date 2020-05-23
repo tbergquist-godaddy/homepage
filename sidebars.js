@@ -10,5 +10,6 @@ module.exports = {
       'flow/other',
       'flow/flow-vs-typescript',
     ],
+    Git: ['git/git'],
   },
 };
