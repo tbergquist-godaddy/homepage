@@ -34,3 +34,40 @@ function test2(x: C) {
   x.otherKey = 'overwrite'; // error
 }
 ```
+
+## Using object as type enum
+
+You can create enum types based on objects: 
+
+```js
+const myObject = {a: 'lol', b: 'rofl'};
+
+type Keys = $Keys<typeof myObject>;
+  
+const key1: Keys = 'a'; // No error
+const key2: Keys = 'c'; // Error: Cannot assign `'c'` to `key2` because property `c` is missing in object literal [1]
+```
+
+You can do the same for the values: 
+
+```js
+const myObject = {a: 'lol', b: 'rofl'};
+
+type Values = $Values<typeof myObject>
+  
+const value1: Values = 'lol'; // No error
+const value2: Values = 'hmm'; // No error 🤔
+```
+
+This might not be what we expected, `hmm` is certainly not a value of `myObject`. But we can make it work correctly with one little change: 
+
+```js
+const myObject = Object.freeze({a: 'lol', b: 'rofl'});
+
+type Values = $Values<typeof myObject>
+  
+const value1: Values = 'lol'; // No error
+const value2: Values = 'hmm'; // Error: Cannot assign `'hmm'` to `value2` because string [1] is incompatible with enum [2]
+```
+
+Now that is better!
