@@ -11,5 +11,6 @@ module.exports = {
       'flow/flow-vs-typescript',
     ],
     Git: ['git/git'],
+    Yarn: ['yarn/yarn'],
   },
 };
