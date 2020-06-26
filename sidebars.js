@@ -2,7 +2,6 @@
 
 module.exports = {
   docs: {
-    'About me': ['aboutme'],
     Flow: [
       'flow/flow',
       'flow/flow-tool',

@@ -19,6 +19,10 @@ experimental.const_params=true
 experimental.types_first=true
 experimental.well_formed_exports=true
 
+module.file_ext=.js
+module.file_ext=.json
+module.file_ext=.md
+
 [strict]
 untyped-import
 unclear-type
