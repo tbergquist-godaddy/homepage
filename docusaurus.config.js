@@ -3,7 +3,7 @@
 module.exports = {
   title: 'Tbergq',
   tagline: '',
-  url: 'https://tbergq-hompage.now.sh',
+  url: 'https://tbergq-homepage.now.sh',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'tbergq', // Usually your GitHub org/user name.
@@ -12,7 +12,12 @@ module.exports = {
     navbar: {
       links: [
         {
-          to: 'docs/aboutme',
+          to: '/',
+          position: 'left',
+          label: 'Tbergq',
+        },
+        {
+          to: 'docs/flow/flow',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
