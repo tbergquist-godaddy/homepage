@@ -11,5 +11,6 @@ module.exports = {
     ],
     Git: ['git/git'],
     Yarn: ['yarn/yarn'],
+    Relay: ['relay/gettingstarted', 'relay/inmemory'],
   },
 };
