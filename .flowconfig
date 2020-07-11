@@ -16,8 +16,8 @@ unclear-type=off
 [options]
 exact_by_default=true
 experimental.const_params=true
-experimental.types_first=true
-experimental.well_formed_exports=true
+types_first=true
+well_formed_exports=true
 
 module.file_ext=.js
 module.file_ext=.json
