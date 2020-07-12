@@ -131,3 +131,55 @@ function test2() {
   console.log(scoped); // => ReferenceError scoped is not defined
 }
 ```
+
+## Type conversion
+
+Javascript will perform type conversion when doing operations. This means that
+
+```js
+3 + '3' // => '33', number is converted to string, and string concatenation is performed
+3 + true // => 4, since true is converted to 1, and 3 + 1 is performed
+3 - '3' // => 0, '3' is converted to 3.
+```
+
+For objects it is a bit more complex, but conversion will happen in the following order.
+
+- If the object has a `toString()` method, this will be called and converted to a string.
+- If the object does not have a `toString` method, js will call `valueOf`
+- If the object has none of the above methods, javascript will throw an Error.
+
+This means that you can have some unexpected comparisons like this: 
+
+```js
+var a = {toString: function() {return '3'}}
+a == '3' // => true
+a === '3' // => false, you should always use `strict equals`
+```
+
+
+## Invocation expressions and This
+
+An _invocation expression_ is javascript syntax for calling a function or method. Every invocation expression includes a pair of parenthesis and an expression before the open parenthesis. If that expression is a property access expression (`A property access expression evaluates to the value of an object property or an array element`) then it is known as _method invocation_. In method invocation, the object or array that is the subject of the property access becomes the subject of `this`. Consider this example: 
+
+```js
+var name = 'John Doe';
+var family = {
+  name: 'Washington',
+  getName: function () {
+    return this.name;
+  }
+}
+
+// family is the subject of the property access, hence this = family.
+family.getName(); // => 'Washington'
+var getName = family.getName;
+// This is the same as window.getName(), so window is the subject of the property access, hence this = window
+getName(); // => 'Jon Doe'
+```
+
+## All numbers are floating point numbers
+
+In javascript all numbers are floating point numbers, so doing division on two integers actually returns a floating point number. `5 / 2 = 2.5`;
+
+For the same reason, working with decimals in javascript is a bit unpredictable. `0.1 + 0.2 === 0.3 // => false`. Note that this is not specific for javascript only. You should therefore considers something like [decimal.js](https://www.npmjs.com/package/decimal.js) when working decimals.
+
